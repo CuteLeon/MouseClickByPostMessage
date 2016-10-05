@@ -12,10 +12,11 @@
     End Sub
 
     Private Sub Button2_MouseDown(sender As Object, e As MouseEventArgs) Handles Button2.MouseDown
-        Debug.Print("D")
+        Me.Text = "按钮2接收到鼠标按下消息"
     End Sub
 
     Private Sub Button2_MouseUp(sender As Object, e As MouseEventArgs) Handles Button2.MouseUp
-        Debug.Print("U")
+        Me.Text = "按钮2接收到鼠标抬起消息"
     End Sub
+
 End Class
